@@ -11,9 +11,13 @@ body {
   text-align: left;
 }
 
+a:visited{
+  color:blue;
+}
 .title {
-    color: Black;
+    color: black;
   margin: auto;
+  margin-bottom:70px;
   text-align: center;
 }
 .title h1{
@@ -27,21 +31,21 @@ body {
   font-size: 13px;
 }
 .maindiv{
-  margin: 10%;
-  margin-top: 70px;
-  padding: 20px;
-  padding-top: 0;
   background-color: #e7e7e7;
   text-align: left;
   margin-left: auto;
   margin-right:auto;
   width:70%;
-  min-height: 500px;
+  max-width: 650px;
+  min-height: auto;
+  padding: 20px;
+  padding-top: 0;
    
 }
 .maindiv h2{
   font-size: large;
-  padding-top: 10px
+  padding-top: 10px;
+  font-style:italic;
 }
 .maindiv h3{
   font-size: medium;
