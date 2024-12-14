@@ -15,10 +15,11 @@ a:visited{
   color:blue;
 }
 .title {
-  font-family: system-ui;
+  font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, 
+  helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
   color: black;
   margin: auto;
-  margin-bottom:70px;
+  margin-bottom:65px;
   text-align: center;
   width: 50%;
 }
@@ -64,5 +65,16 @@ a:visited{
 }
 .artworkslist{
   padding-left: 4%;
+}
+
+.footer {
+  font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, 
+  helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  font-size: small;
 }
 
