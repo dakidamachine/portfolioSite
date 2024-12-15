@@ -2,9 +2,13 @@
 @media only screen and (max-width: 767px) {
   .body{
     font-size: 2em;
+    background-color: black;
   }
   .maindiv p {
     font-size: medium;
+  }
+  .title{
+    width:70%;
   }
 }
 
