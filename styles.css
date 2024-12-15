@@ -1,11 +1,12 @@
-/*@font-face {
-  font-family: system-ui;
-  font-style: normal;
-  font-weight: 300;
-  src: local(".SFNSText-Light"), local(".HelveticaNeueDeskInterface-Light"), local(".LucidaGrandeUI"), local("Ubuntu Light"), local("Segoe UI Light"), local("Roboto-Light"), local("DroidSans"), local("Tahoma");
+
+@media only screen and (max-width: 767px) {
+  .body{
+    font-size: 2em;
+  }
+  .maindiv p {
+    font-size: medium;
+  }
 }
-*/
-/* Now, let's apply it on an element */
 
 body {
   font-family:  ui-serif,'Times New Roman', Times;
@@ -49,7 +50,6 @@ a:visited{
   min-height: auto;
   padding: 20px;
   padding-top: 0;
-   
 }
 .maindiv h2{
   margin-top: 0;
