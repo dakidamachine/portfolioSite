@@ -6,8 +6,9 @@
 }
 */
 /* Now, let's apply it on an element */
+
 body {
-  font-family: ui-serif, 'Times New Roman', Times;
+  font-family:  ui-serif,'Times New Roman', Times;
   text-align: left;
 }
 
@@ -18,14 +19,16 @@ a:visited{
   font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, 
   helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
   color: black;
-  margin: auto;
-  margin-bottom:65px;
+  margin-left:auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 65px;
   text-align: center;
   width: 50%;
 }
 .title h1{
   margin-bottom: 0;
-
+  margin-top: 0;
   background-color: black;
   color: white;
 }
@@ -49,9 +52,11 @@ a:visited{
    
 }
 .maindiv h2{
+  margin-top: 0;
+  padding-top: 0;
   font-size: large;
-  padding-top: 10px;
   font-style:italic;
+
 }
 .maindiv h3{
   font-size: medium;
@@ -72,9 +77,10 @@ a:visited{
   helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
   position: fixed;
   left: 0;
-  bottom: 0;
+  bottom: 30px;
   width: 100%;
   text-align: center;
   font-size: small;
 }
+
 
