@@ -1,17 +1,4 @@
 
-@media only screen and (max-width: 767px) {
-  .body{
-    font-size: 2em;
-    background-color: black;
-  }
-  .maindiv p {
-    font-size: medium;
-  }
-  .title{
-    width:70%;
-  }
-}
-
 body {
   font-family:  ui-serif,'Times New Roman', Times;
   text-align: left;
@@ -29,7 +16,8 @@ a:visited{
   margin-top: 0;
   margin-bottom: 65px;
   text-align: center;
-  width: 50%;
+  width: 75%;
+  max-width: 800px;
 }
 .title h1{
   margin-bottom: 0;
@@ -85,6 +73,12 @@ a:visited{
   width: 100%;
   text-align: center;
   font-size: small;
+}
+
+@media only screen and (max-width: 600px) {
+  .mandiv p{
+    font-size: large;
+  }
 }
 
 
