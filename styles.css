@@ -64,21 +64,15 @@ a:visited{
   padding-left: 4%;
 }
 
-.footer {
+footer {
   font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, 
   helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
-  position: fixed;
-  left: 0;
-  bottom: 30px;
+  position: relative;
+  margin-top: 100px;;
   width: 100%;
   text-align: center;
   font-size: small;
 }
 
-@media only screen and (max-width: 600px) {
-  .mandiv p{
-    font-size: large;
-  }
-}
 
 
