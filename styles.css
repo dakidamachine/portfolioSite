@@ -67,12 +67,11 @@ a:visited{
 footer {
   font-family: -apple-system, BlinkMacSystemFont, avenir next, avenir, segoe ui, 
   helvetica neue, helvetica, Cantarell, Ubuntu, roboto, noto, arial, sans-serif;
-  position: relative;
-  margin-top: 100px;;
   width: 100%;
+  position: fixed;
+  bottom: 0;
   text-align: center;
   font-size: small;
 }
-
 
 
